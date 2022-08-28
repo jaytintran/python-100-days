@@ -1,14 +1,14 @@
 import random
 from hangman_words import word_list
-from hangman_art import stages
-from hangman_art import logo
+from art import hangman_stages
+from art import logo_hangman
 # word_list = ["aardvark", "baboon", "camel"]
 # Randomly choose a word from the word_list and assign it to a variable called chosen_word.
 chosen_word = random.choice(word_list)
 blanks = []
 print("Welcome Hangman Game!")
-print(logo)
-print(stages[len(stages) - 1])
+print(logo_hangman)
+print(hangman_stages[len(hangman_stages) - 1])
 
 i = 0
 while i < len(chosen_word):
@@ -20,7 +20,7 @@ print(blanks)
 # Looping again and again until user has complete the guessing game
 end_game = False
 lives = 6
-state = len(stages) - 1
+state = len(hangman_stages) - 1
 while not end_game:
   # Ask the user to guess then make it lowercase.
   guess = input("\nGuess a letter: ").lower()
@@ -32,7 +32,7 @@ while not end_game:
   # If use guesses wrong 
   if guess not in chosen_word:
     state -= 1
-    print(stages[state])
+    print(hangman_stages[state])
     lives -= 1
     print("You lose 1 live, you have: " + str(lives) + " lives left")
     if lives == 0:
