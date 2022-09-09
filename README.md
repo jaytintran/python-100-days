@@ -1,7 +1,9 @@
 # Python 100 Days Bootcamp
-Challenges and projects from the 100 days bootcamp of Python at Brewery App London 
+
+Challenges and projects from the 100 days bootcamp of Python at Brewery App London
 
 ## Beginner Level
+
 - Day 1: Working with Variable - `Project: Band Name Generator`
 - Day 2: Data Types & Strings - `Project: Tip Calculator`
 - Day 3: Control Flow & Logical Operators - `Project: Treasure Island`
@@ -13,4 +15,5 @@ Challenges and projects from the 100 days bootcamp of Python at Brewery App Lond
 - Day 9: Dictionaries & Nesting - `Project: Secret Auction`
 - Day 10: Function with Outputs - `Project: Calculator`
 - Day 11: 1st Capstone Project - `Project: Blackjack Game`
-- Day 12: Scope - `Project: Number Guessing Game` 
+- Day 12: Scope - `Project: Number Guessing Game`
+- Day 13: Debugginng-
