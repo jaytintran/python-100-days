@@ -46,7 +46,6 @@ def startGame():
     answer = input("Which person has more followers on Instagram? Type A or B: ").lower()
   
     is_correct = checkAnswer(answer, person1_followers, person2_followers)
-    clear()
     print(logo_guess_high_low)
     if is_correct:
       score += 1
