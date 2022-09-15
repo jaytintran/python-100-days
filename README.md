@@ -16,4 +16,8 @@ Challenges and projects from the 100 days bootcamp of Python at Brewery App Lond
 - Day 10: Function with Outputs - `Project: Calculator`
 - Day 11: 1st Capstone Project - `Project: Blackjack Game`
 - Day 12: Scope - `Project: Number Guessing Game`
-- Day 13: Debugginng-
+- Day 13: Debugginng - `Project: None`
+- Day 14: `Project: High Low Guessing Game`
+- Day 15: Local Environment & PyCharm - `Project: Coffee Machine`
+- Day 16: Intro to OOP - `Project: Coffee Machine V2`
+- Day 17: OOP Continue - `Project: Quiz Game`
