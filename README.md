@@ -21,3 +21,6 @@ Challenges and projects from the 100 days bootcamp of Python at Brewery App Lond
 - Day 15: Local Environment & PyCharm - `Project: Coffee Machine`
 - Day 16: Intro to OOP - `Project: Coffee Machine V2`
 - Day 17: OOP Continue - `Project: Quiz Game`
+- Day 18: Turle Drawinng Challenges - `Project: RGB Dots Art Generator`
+
+| A note about day 18: I can't wrap my head around my a piece of colorful dots can be sold for millions of dollars. I did my research and it has to do something with contemporary art - the ways how they price the art work in museum with a whopping millions of dollar of value. This project can basically do the same if not worse than the one of Damien Hirs which was sold for 1,250,000 pounds at an auction.
