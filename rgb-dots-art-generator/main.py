@@ -43,6 +43,7 @@ t.colormode(255)
 def draw_line():
     for i in range(10):
         pencil.color(random_color())
+        # pencil.color("blue")
         pencil.dot(20)
         pencil.penup()
         pencil.forward(50)
