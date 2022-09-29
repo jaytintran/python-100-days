@@ -26,5 +26,7 @@ Challenges and projects from the 100 days bootcamp of Python at Brewery App Lond
 - Day 17: OOP Continue - `Project: Quiz Game`
 - Day 18: Turle Drawinng Challenges - `Project: RGB Dots Art Generator`
 - Day 19: Instances, States & High Order Functions - `Project: Etch-a-Sketch & Turtle Race`
+- Day 20: Start Building The Snake Game - `Project: Snake Game Part 1`
+- Day 21: Class Inheritance, Slicing - `Project: Snake Game Part 2`
 
 | A note about day 18: I can't wrap my head around my a piece of colorful dots can be sold for millions of dollars. I did my research and it has to do something with contemporary art - the ways how they price the art work in museum with a whopping millions of dollar of value. This project can basically do the same if not worse than the one of Damien Hirs which was sold for 1,250,000 pounds at an auction.
