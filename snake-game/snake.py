@@ -16,11 +16,18 @@ class Snake:
     def initialize_snake(self):
         # For every position, give it a white square
         for position in STARTING_POSITION:
-            new_square = Turtle(shape="square")
-            new_square.penup()
-            new_square.color("white")
-            new_square.goto(position)
-            self.squares.append(new_square)
+            self.add_square(position)
+
+    def add_square(self, position):
+        new_square = Turtle(shape="square")
+        new_square.penup()
+        new_square.color("white")
+        new_square.goto(position)
+        self.squares.append(new_square)
+
+    def extend(self):
+        # Add new square
+        self.add_square(self.squares[-1].position())
 
     def move(self):
         # Remake the snake move
@@ -50,3 +57,4 @@ class Snake:
         # If the head is pointing left, it can't go right
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
+
